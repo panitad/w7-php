@@ -9,7 +9,7 @@
 
 <body>
     <div class="container mb-4 py-3">
-        <form action="form.php" method="post">
+        <form action="display.php" method="post">
         <h1 class="text-center">ข้อมูลส่วนตัว</h1>
         <div class="mb-2">
             <label class="form-label">ชื่อ - นามสกุล</label>
