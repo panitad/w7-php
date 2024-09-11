@@ -2,16 +2,16 @@
     $num = $_POST['number'];
     $name = $_POST['name'];
     $class = $_POST['class'];
-    $gend = $_POST['gender'];
-    switch ($gend) {
+    $ge = $_POST['gender'];
+    switch ($ge) {
         case 1:
-            $gen = "ชาย";
+            $genn = "ชาย";
         break;
         case 2:
-            $gen = "หญิง";
+            $genn = "หญิง";
         break;
         default:
-            $gen = "อื่นๆ";
+            $genn = "อื่นๆ";
     }
 ?>
  
@@ -31,7 +31,7 @@
                 <p class="mb-2">ชื่อ: <?php echo $name;?></p>
                 <p class="mb-2">ชั้น: <?php echo $class;?></p>
                 <p class="mb-2">เลขที่: <?php echo $num;?></p>
-                <p class="mb-2">เพศ: <?php echo $gend;?></p>
+                <p class="mb-2">เพศ: <?php echo $genn;?></p>
             <a href="index.php" class="btn btn-primary">กลับหน้าแรก</a>
         </form>
     </div>
