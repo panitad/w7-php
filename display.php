@@ -21,7 +21,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ปณิทัศน์-24</title>
-    <link href="https://bootswatch.com/5/darkly/bootstrap.css">
+    <link href="https://bootswatch.com/5/darkly/bootstrap.css" rel="stylesheet">
 </head>
 
 <body>
